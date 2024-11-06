@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="src/styles/style.css" />
+    <title>SGB</title>
+  </head>
+  <body>
+    <section class="sidebar-menu-container" id="sidebarMenuContainer">
+      <!-- conteúdo gerado pelo js -->
+    </section>
+
+    <section class="options-container">
+      <div class="options-header titles-pattern">
+        <h1>Opções</h1>
+      </div>
+      <div class="options-content">
+        <button class="option-button" >Livros</button>
+        <button class="option-button">Usuários</button>
+        <button class="option-button">Solicitações</button>
+      </div>
+    </section>
+
+    <section class="table-book-container">
+      <div class="table-book-header titles-pattern">
+        <h1>Lista de Livros</h1>
+      </div>
+      <table class="table-book table-pattern">
+        <!-- gerado pelo js -->
+      </table>
+    </section>
+
+    <section class="table-users-container">
+      <div class="table-users-header titles-pattern">
+        <h1>Lista de Usuários</h1>
+      </div>
+      <table class="table-users table-pattern">
+        <!-- gerado pelo js -->
+      </table>
+    </section>
+
+    <div class="solicitacoes-container">
+      <div class="solicitacoes-header titles-pattern">
+        <h1>Lista de Solicitações</h1>
+      </div>
+      <table class="solicitacoes table-pattern">
+        <!-- gerado pelo js -->
+      </table>
+    </div>
+
+    <section class="add-book-container">
+      <div class="add-book-header titles-pattern">
+        <h1>Adicionar Livro</h1>
+      </div>
+      <form>
+        <div class="form-input-container">
+          <label class="form-label" for="bookTitle">Nome do Livro</label>
+          <input
+            class="form-input"
+            type="text"
+            name="bookTitle"
+            id="bookTitle"
+            placeholder="Nome do Livro"
+          />
+        </div>
+        <div class="form-input-container">
+          <label class="form-label" for="bookAuthor">Autor(a)</label>
+          <input
+            class="form-input custom-input"
+            type="text"
+            name="customAuthorInput"
+            id="customAuthorInput"
+            placeholder="Nome do Autor(a)"
+          />
+          <select class="form-select" name="bookAuthor" id="bookAuthor">
+            <!-- gerado pelo js -->
+          </select>
+        </div>
+        <div class="form-input-container">
+          <label class="form-label" for="bookGenre">Gênero</label>
+          <input
+            class="form-input custom-input"
+            type="text"
+            name="customGenreInput"
+            id="customGenreInput"
+            placeholder="Nome do Gênero"
+          />
+          <select class="form-select" name="bookGenre" id="bookGenre">
+            <!-- gerado pelo js -->
+          </select>
+        </div>
+        <button class="add-book-button button-pattern">Adicionar</button>
+      </form>
+    </section>
+
+    <script src="src/js/script.js"></script>
+    <script src="src/js/sidebar.js"></script>
+    <script src="src/js/table.js"></script>
+    <script src="src/js/form.js"></script>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+{
+  "livros": [
+    {
+      "idLivro": 1,
+      "nomeDoLivro": "Dom Quixote",
+      "autor": "Miguel de Cervantes",
+      "genero": "Ficção",
+      "status": "Reservado",
+      "id": "5a9c"
+    },
+    {
+      "idLivro": 2,
+      "nomeDoLivro": "1984",
+      "autor": "George Orwell",
+      "genero": "Distopia",
+      "status": "Reservado",
+      "id": "c1b9"
+    },
+    {
+      "idLivro": 3,
+      "nomeDoLivro": "O Senhor dos Anéis",
+      "autor": "J.R.R. Tolkien",
+      "genero": "Fantasia",
+      "status": "Reservado",
+      "id": "3276"
+    },
+    {
+      "idLivro": 4,
+      "nomeDoLivro": "A Revolução dos Bichos",
+      "autor": "George Orwell",
+      "genero": "Sátira",
+      "status": "Reservado",
+      "id": "f1d8"
+    },
+    {
+      "idLivro": 5,
+      "nomeDoLivro": "A Menina que Roubava Livros",
+      "autor": "Markus Zusak",
+      "genero": "Drama",
+      "status": "Reservado",
+      "id": "4573"
+    }
+  ],
+  "usuarios": [
+    {
+      "idUsuario": 1,
+      "nome": "Carlos",
+      "sobrenome": "Silva",
+      "cpf": "123.456.789-00",
+      "email": "carlos.silva@example.com",
+      "admin": true,
+      "id": "728b"
+    },
+    {
+      "idUsuario": 2,
+      "nome": "Mariana",
+      "sobrenome": "Santos",
+      "cpf": "987.654.321-00",
+      "email": "mariana.santos@example.com",
+      "admin": false,
+      "id": "d95f"
+    },
+    {
+      "idUsuario": 3,
+      "nome": "Ana",
+      "sobrenome": "Lima",
+      "cpf": "111.222.333-44",
+      "email": "ana.lima@example.com",
+      "admin": false,
+      "id": "2ef6"
+    },
+    {
+      "idUsuario": 4,
+      "nome": "Pedro",
+      "sobrenome": "Oliveira",
+      "cpf": "555.666.777-88",
+      "email": "pedro.oliveira@example.com",
+      "admin": true,
+      "id": "726e"
+    },
+    {
+      "idUsuario": 5,
+      "nome": "Beatriz",
+      "sobrenome": "Costa",
+      "cpf": "999.888.777-66",
+      "email": "beatriz.costa@example.com",
+      "admin": false,
+      "id": "873c"
+    }
+  ],
+  "solicitacoes": [
+    {
+      "id": "dce0",
+      "data": "2024-11-06",
+      "hora": "08:41",
+      "idUsuario": 1,
+      "idLivro": 2,
+      "tipoSolicitacao": "Empréstimo",
+      "statusSolicitacao": "Em andamento",
+      "idSolicitacao": "op1e"
+    }
+  ]
+}

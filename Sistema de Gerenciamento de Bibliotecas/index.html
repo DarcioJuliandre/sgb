@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="src/styles/style.css" />
+    <title>SGB</title>
+  </head>
+  <body>
+    <header class="auth-container header-pattern">
+      <div class="auth-header">
+        <span class="material-symbols-outlined logo"> auto_stories </span>
+        <h1>SGB</h1>
+      </div>
+      <div class="auth-content">
+        <form action="">
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Senha"
+            required
+          />
+          <button class="auth-button button-pattern" type="submit">
+            Entrar
+          </button>
+        </form>
+      </div>
+    </header>
+
+    <section class="sidebar-menu-container" id="sidebarMenuContainer">
+      <!-- conteúdo gerado pelo js -->
+    </section>
+
+    <section class="landing-container">
+      <div class="landing-img-container">
+        <img src="src/assets/img/welcome.jpg" alt="logo" />
+      </div>
+      <div class="landing-text">
+        <h2>Bem-vindo ao sistema de gerenciamento de biblioteca</h2>
+        <p>Faça o login para acessar o sistema de gerenciamento de biblioteca.</p>
+      </div>
+    </section>
+
+    <section class="catalogue-container">
+      <div class="catalogue">
+        <div class="catalogue-header titles-pattern">
+          <h1>Livros disponíveis</h1>
+        </div>
+        <div class="catalogue-content livros-content">
+          <!-- conteúdo gerado pelo js -->
+        </div>
+      </div>
+    </section>
+
+    <script src="src/js/script.js"></script>
+    <script src="src/js/header.js"></script>
+    <script src="src/js/login.js"></script>
+    <script src="src/js/sidebar.js"></script>
+    <script src="src/js/catalogue.js"></script>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+.options-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding: 16px;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.options-container button {
+  background-color: var(--text-color);
+  color: var(--background-color);
+  font-weight: 700;
+  border: none;
+  outline: none;
+  border-radius: var(--border-radius);
+  padding: 8px;
+  cursor: pointer;
+  aspect-ratio: 4 / 1;
+  transition: 0.1s;
+}
+
+.options-container button:hover {
+  background-color: var(--primary-color);
+}
+
+.add-book-container {
+  padding: 16px;
+}
+
+.add-book-container form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  padding: 16px;
+}
+
+.form-input-container {
+  display: block;
+}
+
+.add-book-container form label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  font-weight: 500;
+  border-radius: var(--border-radius);
+  background-color: var(--text-color);
+  color: var(--background-color);
+}
+
+.custom-input {
+    display: none;
+}
+
+.custom-input.show {
+    display: block;
+}
+
+.add-book-container form input,
+.add-book-container form select {
+  padding: 8px;
+  border: none;
+  outline: none;
+  border-radius: var(--border-radius);
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  font-weight: 500;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.add-book-container form button {
+  grid-column: 1 / 4;
+  padding: 16px;
+}
+
+.table-pattern {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+  margin: 16px 0;
+}
+
+.table-pattern th,
+.table-pattern td {
+  padding: 8px;
+  text-align: left;
+}
+
+.table-pattern th {
+  background-color: var(--text-color);
+  color: var(--background-color);
+  font-weight: 700;
+}
+
+.table-pattern td button {
+  padding: 4px;
+}
